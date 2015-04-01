@@ -1,1 +1,9 @@
 /* CSS declarations go here */
+body { text-align: center;
+background: #b3e5e5;}
+
+ul{
+	list-style-type: none;
+	position: center;
+    font-size: 2em;
+}
