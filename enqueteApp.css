@@ -1,9 +1,21 @@
 /* CSS declarations go here */
-body { text-align: center;
-background: #b3e5e5;}
+body { text-align: left;
+background: #b3e5e5;
+padding: 70px;}
 
 ul{
 	list-style-type: none;
 	position: center;
     font-size: 2em;
+}
+
+.eerste {
+	
+	font-size: 2em;
+}
+
+.tweede {
+	
+	font-style: italic;
+	font-size: 2em;
 }
