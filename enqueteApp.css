@@ -9,13 +9,38 @@ ul{
     font-size: 2em;
 }
 
-.eerste {
-	
-	font-size: 2em;
+p {
+	font-size: 20em;
 }
 
-.tweede {
-	
-	font-style: italic;
-	font-size: 2em;
+h1 {
+	padding-bottom: 30px;
+
+}
+
+
+.ui.image.right {
+	float:right;
+	width: 100px;
+	height: auto;
+	font-size: 0.85714286rem;
+}
+
+.ui.image.left {
+	float:left;
+	width: 130px;
+	height: auto;
+	padding-right: 0.3em
+}
+
+.ui.message {
+	height: 7em;
+	font-size: 1.3em;
+	vertical-align: middle;
+
+}
+
+.ui.message.first {
+	height: 9em;
+	font-size: 1em;
 }
