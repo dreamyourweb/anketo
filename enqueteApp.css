@@ -21,7 +21,14 @@ h3 {
 
 .ui.image.right {
 	float:right;
-	width: 130px;
+	width: 170px;
+	height: auto;
+	font-size: 0.85714286rem;
+}
+
+.ui.image.right2 {
+	float:right;
+	width: 100px;
 	height: auto;
 	font-size: 0.85714286rem;
 }
@@ -42,7 +49,7 @@ h3 {
 }
 
 .ui.message.first {
-	height: 13em;
+	height: 10em;
 	font-size: 1.2em;
 	font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
