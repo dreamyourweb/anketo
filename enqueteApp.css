@@ -42,5 +42,10 @@ h1 {
 
 .ui.message.first {
 	height: 9em;
-	font-size: 1em;
+	font-size: 1.2em;
+}
+
+.ui.message.second {
+	height: 7em;
+	font-size: 1.2em;
 }
