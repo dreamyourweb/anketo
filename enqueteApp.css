@@ -3,7 +3,7 @@ body { text-align: left;
 background: #b3e5e5;
 padding: 70px;}
 
-ul{
+div{
 	list-style-type: none;
 	position: center;
     font-size: 2em;
@@ -59,3 +59,4 @@ h3 {
 	font-size: 1.2em;
 	font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
+
