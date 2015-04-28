@@ -5,18 +5,27 @@
 <body>
   
  
+ <div class="ui top attached tabular menu">
+    <a class="active item" data-tab="first">Home</a>
+    <a class="item" data-tab="second">Prijslijst</a>
+    <a class="item" data-tab="third">Contact</a>
+  </div>
+<div class="ui bottom attached active tab segment" data-tab="first">
 
       <div class="ui divider"></div>
       <div class="ui grid">
+        <div class="row padding "> 
       	<div class = "six wide column"><p> <h1> Welkom bij QUIN <br> Realtime Feedback </h1>  <h3> Structureel inzicht in de behoeften van jouw doelgroep </h3> Quin is een innovatieve tool die structureel inzicht geeft in de opvattingen, ideeën, gevoelens of motieven van jouw doelgroep. Via een gebruiksvriendelijke tool vraag je klanten, medewerkers of andere relaties op elk gewenst moment om feedback. Zij geven antwoord met één druk op de knop via telefoon, tablet of laptop. Aan de achterkant maken heldere grafieken en infographics de informatie direct inzichtelijk en worden trends en patronen duidelijk. Quin stelt je in staat feedback van jouw doelgroep te doorgronden en je eigen acties daarop in te richten. <br><br>
         We zien dat er weliswaar steeds meer data worden gegenereerd of beschikbaar komen. Maar om er zinvol gebruik van te kunnen maken zijn data alleen niet voldoende. Al snel zie je door de bomen het bos niet meer. Wegen, analyseren en interpreteren zijn nodig. Zo kom je eerst van data tot informatie. En daarna van informatie tot kennis. Grote hoeveelheden data zijn pas waardevol wanneer verbanden inzichtelijk worden gemaakt. Dat is wat Quin doet. Hij maakt het mogelijk om simpel, snel, structureel én samenhangend inzicht te krijgen in jouw doelgroep. Zo krijg je uit eerste hand input voor het verbeteren van jouw beleid, van bedrijfsprocessen, producten of diensten. </p></div>
-        <div class = "two wide column"> </div>
-        <div class = "four wide column"> <IMG SRC="vintage_orange_flowers.jpg" class="ui image right" > <h3> BEKIJK DE DEMO </h3></div>
+        <div class = "six wide column"> <IMG SRC="vintage_orange_flowers.jpg" class="ui image right" > <h3> BEKIJK DE DEMO </h3></div>
+        </div>
         <div class="twelve wide column"> <p>  <h3> Welke voordelen heeft Quin voor jou? </h3> </p> </div>
-        <div class="four wide column"> <h5> Simpel data verzamelen </h5> Formuleer zelf vragen en leg die via de app voor aan jouw  doelgroep(-en). <h5> Kwalitatieve data <br></h5> Deelnemers beantwoorden vragen niet alleen in tekst, maar desgewenst ook door middel van locatie, foto, video of geluidsfragment. <br></div>
-        <div class="four wide column"> <h5> Responsive design </h5> De app biedt de vragen aan op elke gewenste device. Smartphone, tablet of computer. <h5> Realtime analyse </h5> Data worden direct overzichtelijk en samenhangend gepresenteerd met aantrekkelijke visualisaties. <br> <br></div> 
-        <div class="four wide column"> <h5> Benadering op maat </h5> De app is helemaal van jou. Het platform wordt gecustomized in je eigen look & feel. <h5> De gebruiker centraal </h5> Deelnemers geven antwoord wanneer zij dat willen. De app is simpel en intuïtief in gebruik. <br> <br> </div>
-        <div class="twelve wide column"> <p>  <h3>   </h3> </p> </div>
+       <div class="row equal height"> 
+          <div class="four wide column"> <h5> Simpel data verzamelen </h5> Formuleer zelf vragen en leg die via de app voor aan jouw  doelgroep(-en). <h5> Kwalitatieve data <br></h5> Deelnemers beantwoorden vragen niet alleen in tekst, maar desgewenst ook door middel van locatie, foto, video of geluidsfragment. <br></div>
+          <div class="four wide column"> <h5> Responsive design </h5> De app biedt de vragen aan op elke gewenste device. Smartphone, tablet of computer. <h5> Realtime analyse </h5> Data worden direct overzichtelijk en samenhangend gepresenteerd met aantrekkelijke visualisaties. <br> <br></div> 
+          <div class="four wide column"> <h5> Benadering op maat </h5> De app is helemaal van jou. Het platform wordt gecustomized in je eigen look & feel. <h5> De gebruiker centraal </h5> Deelnemers geven antwoord wanneer zij dat willen. De app is simpel en intuïtief in gebruik. <br> <br> </div> 
+        </div>
+       
         <div class = "six wide column"><p> <h5> Over ons </h5> Orikami en HVR Group bouwen communicatieve tools op basis van data science. </p></div>
         <div class = "six wide column"><p> <h5>Contact </h5> Wil je gebruik maken van of meer informatie over realtime feedback verzamelen? Neem vrijblijvend <a href="http://orikami.nl/#contact">contact op met orikami/HVR </a></p></div>        
 
@@ -35,7 +44,7 @@
 <div class="iu grid"> <IMG SRC="hvr2.jpg" class="ui image left"> <IMG SRC="logo_boat.png" class= "ui image right2">
 </div> </div>
 
-</body>
+
 
 <!--.
 <template name="hello">
@@ -43,3 +52,22 @@
   <p>You've pressed the button {{counter}} times.</p>
 </template>
 ..-->
+
+</div>
+<div class="ui bottom attached tab segment" data-tab="second">
+    Second
+  </div>
+<div class="ui bottom attached tab segment" data-tab="third">
+    Third
+  </div>
+
+
+
+<script type="text/javascript">
+$('.menu .item')
+  .tab()
+;
+</script>
+
+
+  </body>
