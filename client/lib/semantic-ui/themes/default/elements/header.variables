@@ -28,7 +28,7 @@
 
 /* Sub Header */
 @subHeaderLineHeight: 1.2em;
-@subHeaderColor: rgba(0, 0, 0, 0.5);
+@subHeaderColor: red;
 
 /* Icon */
 @iconOpacity: 1;
