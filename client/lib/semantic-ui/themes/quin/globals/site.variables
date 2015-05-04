@@ -8,7 +8,7 @@
 *******************************/
 
 
-
+@import "defenitions/elements/colors.import.less"
 /*-------------------
        Fonts
 --------------------*/
@@ -57,7 +57,7 @@
 @orange           : #E07B53;
 @pink             : #D9499A;
 @purple           : #564F8A;
-@red              : #AA3333;
+@red              : @accentDD;
 @teal             : #00B5AD;
 @yellow           : #F2C61F;
 
