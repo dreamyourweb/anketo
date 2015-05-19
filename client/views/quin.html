@@ -1,41 +1,48 @@
 <template name="quin">
     <nav class="ui menu inverted navbar page grid" style="margin-bottom:0px;">
-        <a href="" class="brand item">Quin</a>
-        <a href="" class="item">Cases</a>
-        <a href="" class="item">Tarieven</a>
-        <a href="" class="item">Contact</a>
+        <a href="" class="brand item">Quinsight</a>
+        <!-- <a href="" class="item">Cases</a>
+        <a href="" class="item">Tarieven</a> -->
+        <a href="#contact" class="item">Contact</a>
     </nav>
     <div class="ui grid">
         <div class="row">
             <div class="column padding-reset">
                 <div class="ui center aligned huge message page grid">
-                    <h1 class="ui huge header">QUIN </h1> 
-                     <h2 class="ui left aligned header"> Real-time inzicht in jouw doelgroep</h2>
-                     <h4 class="ui left aligned header">Een innovatieve tool die structureel inzicht geeft in de opvattingen, ideeën, gevoelens of motieven van jouw doelgroep.</h4>
-                    <img src="vintage_orange_flowers.jpg" style="width:400px"/>
-                    <p><a class="ui centered red button">bekijk demo &raquo;</a></p>
+                    <div class="ui stackable two column row">
+                        <div class="column">
+                            <h1 class="ui left aligned header">QUINSIGHT</h1> 
+                            <h2 class="ui left aligned header"> Real-time inzicht in jouw doelgroep</h2>
+                            <h4 class="ui left aligned header">Een innovatieve tool die structureel inzicht geeft in de opvattingen, ideeën, gevoelens of motieven van jouw doelgroep.</h4>
+                        </div>
+                        <div class="column">
+                            <img src="vintage_orange_flowers.jpg" style="width:400px"/>
+                            <p><a class="ui centered red button">bekijk demo &raquo;</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="ui hidden divider"></div>
-    <div class="ui stackable grid">
+    <div class="ui stackable page center aligned grid">
+        <h2 class="ui header">Welke voordelen heeft Quinsight voor jou?</h2>
         <div class="ui stackable three column row">
             <div class="column">
                 <img src="icons/1.png" class="ui small centered image">
-                <h2 class="ui centered header" style="margin-top:8px">Simpel data verzamelen</h2>
-                <p>Formuleer zelf vragen en leg die via de app voor aan jouw  doelgroep(-en).</p>
+                <h3 class="ui centered header" style="margin-top:8px">Simpel data verzamelen</h3>
+                <p class="centered">Formuleer zelf vragen en leg die via de app voor aan jouw  doelgroep(-en).</p>
                 <!-- <button class="ui tiny button m-top-10">View details &raquo;</button> -->
             </div>
             <div class="column">
                 <img src="icons/2.png" class="ui small centered image">
-                <h2 class="ui centered header" style="margin-top:8px">Kwalitatieve data</h2>
+                <h3 class="ui centered header" style="margin-top:8px">Kwalitatieve data</h3>
                 <p>Deelnemers beantwoorden vragen niet alleen in tekst, maar desgewenst ook door middel van locatie, foto, video of geluidsfragment.</p>
                 <!-- <button class="ui tiny button m-top-10">View details &raquo;</button> -->
             </div>
             <div class="column">
                 <img src="icons/3.png" class="ui small centered image">
-                <h2 class="ui centered header" style="margin-top:8px">Realtime analyse</h2>
+                <h3 class="ui centered header" style="margin-top:8px">Realtime analyse</h3>
                 <p>Data worden direct overzichtelijk en samenhangend gepresenteerd met aantrekkelijke visualisaties.</p>
                 <!-- <button class="ui tiny button m-top-10">View details &raquo;</button> -->
             </div>
@@ -43,37 +50,47 @@
         <div class="three column row">
             <div class="column">
                 <img src="icons/4.png" class="ui small centered image">
-                <h2 class="ui centered header" style="margin-top:8px">Benadering op maat</h2>
+                <h3 class="ui centered header" style="margin-top:8px">Benadering op maat</h3>
                 <p>De app is helemaal van jou. Het platform wordt gecustomized in je eigen look & feel.</p>
                 <!-- <button class="ui tiny button m-top-10">View details &raquo;</button> -->
             </div>
             <div class="column">
                 <img src="icons/5.png" class="ui small centered image">
-                <h2 class="ui centered header" style="margin-top:8px">Responsive design</h2>
+                <h3 class="ui centered header" style="margin-top:8px">Responsive design</h3>
                 <p>De app biedt de vragen aan op elke gewenste device. Smartphone, tablet of computer.</p>
                 <!-- <button class="ui tiny button m-top-10">View details &raquo;</button> -->
             </div>
             <div class="column">
                 <img src="icons/6.png" class="ui small centered image">
-                <h2 class="ui centered header" style="margin-top:8px">De gebruiker centraal</h2>
+                <h3 class="ui centered header" style="margin-top:8px">De gebruiker centraal</h3>
                 <p>Deelnemers geven antwoord wanneer zij dat willen. De app is simpel en intuïtief in gebruik.</p>
                 <!-- <button class="ui tiny button m-top-10">View details &raquo;</button> -->
             </div>
         </div>
-<img src="flowers_banner.jpg" class="ui image">
+    </div>
+    <div class="ui hidden divider"></div>
+    <img src="flowers_banner.jpg" class="ui image">
+    <div class="ui hidden divider"></div>
+    <div class="ui stackable page grid" id="contact">
         <div class="row">
             <div class="column">
+                <h2>Contact</h2>
+                <p>orikami en HVR Group bouwen communicatieve tools op basis van data science. Wil je gebruik maken van Quin of meer informatie over feedback verzamelen? <br> Neem dan vrijblijvend contact op.</p>
+            </div>
+        </div>
+    </div>
+    <div class="ui stackable grid">
+        <!-- <div class="row">
+            <div class="column">
                 <p> Via een gebruiksvriendelijke tool vraag je klanten, medewerkers of andere relaties op elk gewenst moment om feedback. Zij geven antwoord met één druk op de knop via telefoon, tablet of laptop. Aan de achterkant maken heldere grafieken en infographics de informatie direct inzichtelijk en worden trends en patronen duidelijk. Quin stelt je in staat feedback van jouw doelgroep te doorgronden en je eigen acties daarop in te richten.<br> <br> We zien dat er weliswaar steeds meer data worden gegenereerd of beschikbaar komen. Maar om er zinvol gebruik van te kunnen maken zijn data alleen niet voldoende. Al snel zie je door de bomen het bos niet meer. Wegen, analyseren en interpreteren zijn nodig. Zo kom je eerst van data tot informatie. En daarna van informatie tot kennis. Grote hoeveelheden data worden pas waardevol wanneer verbanden inzichtelijk worden gemaakt. Dat is wat Quin doet. Hij maakt het mogelijk om simpel, snel, structureel én samenhangend inzicht te krijgen in jouw doelgroep. Zo krijg je uit eerste hand input voor het verbeteren van jouw beleid, van bedrijfsprocessen, producten of diensten. </p> 
-                     </div>
-                </div>
+             </div>
+        </div> -->
              
         <div class="row">
             <div class="column">
                 <div class="ui divider"></div>  
-                <span> 
-                    <img src="hvr2.jpg" class="ui small centered image">
-                        <img src="orikami_breed_logo.png" class="ui small centered image">
-                orikami en HVR Group bouwen communicatieve tools op basis van data science. Wil je gebruik maken van Quin of meer informatie over feedback verzamelen? <br> Neem dan vrijblijvend contact op. </span>
+                    <img src="hvr2.jpg" class="ui small left floated image">
+                    <img src="orikami_breed_logo.png" class="ui small left floated image">                
             </div>
         </div>
     </div>
