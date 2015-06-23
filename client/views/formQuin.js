@@ -28,8 +28,11 @@ Template.formQuin.events({
     			console.log(err);
 			}
 			else
-			{FlashMessages.sendSuccess("Bedankt voor het achterlaten van uw gegevens. Wij nemen binnenkort contact met u op.");}
-		 });
+				{FlashMessages.sendSuccess("Bedankt voor het achterlaten van uw gegevens. Wij nemen binnenkort contact met u op.");}
+		 	}
+		 );
      }
+        
+
 });
 
