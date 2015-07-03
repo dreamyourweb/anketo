@@ -28,7 +28,7 @@ Template.formQuin.events({
     			console.log(err);
 			}
 			else
-				{FlashMessages.sendSuccess("Bedankt voor het achterlaten van uw gegevens. Wij nemen binnenkort contact met u op.");}
+				{sAlert.info('Bedankt! We nemen spoedig contact met u op.', {effect: 'slide', position: 'bottom-left', timeout: 'none', onRouteClose: false, stack: false, offset: '150px'});}
 		 	}
 		 );
      }
@@ -36,3 +36,5 @@ Template.formQuin.events({
 
 });
 
+
+    
