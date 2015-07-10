@@ -9,7 +9,7 @@ Meteor.methods({
    console.log(text);
    // Send the e-mail
    Email.send({
-       to: "hanneke@orikami.nl",
+       to: "stijn@orikami.nl",
        from: email,
        subject: "Orikami Contact Form - Message From ",
        text: text
